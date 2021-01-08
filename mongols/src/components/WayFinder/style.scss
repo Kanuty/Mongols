@@ -1,0 +1,51 @@
+.wayFinder{
+  display: flex;
+  box-pack: center;
+  justify-content: center;
+  box-align: center;
+  align-items: center;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #171817;
+  box-shadow: 0 -8px 10px 8px #0a0a0c;
+  height: 65px;
+  position: fixed;
+  z-index: 2999;
+
+  h3{
+    font-family: Beaufort for LOL,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #937341;
+    letter-spacing: 2px;
+    padding: 0 16px;
+    text-transform: uppercase;
+  }
+
+  .titles{
+    flex: 0 1 auto;
+    border-style: solid;
+    -webkit-border-image: -webkit-linear-gradient(top,#71623c,#3f301b);
+    border-image: linear-gradient(180deg,#71623c,#3f301b);
+    border-bottom: 0;
+    border-image-slice: 1 100%;
+    border-top: 0;
+    border-left: 1px solid #71623c;
+    border-bottom-width: 1px;
+    border-right: 1px solid #71623c;
+    border-top-width: 1px;
+    height: 100%;
+    margin: 0 35px;
+  }
+  
+  .pagePosition{
+    border-image: linear-gradient(180deg,#71623c,#3f301b);
+    border-style: solid;
+    border-image-slice: 1 100%;
+    border-right: 1px solid #937341;
+    height: 100%;
+    margin-right: 35px;
+    padding-right: 35px;
+  }
+}
